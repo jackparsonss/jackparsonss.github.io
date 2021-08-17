@@ -1,12 +1,11 @@
 import "./App.css";
 import Header from "./Components/Header";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <h1>THIS WEBSITE IS CURRENTLY UNDER DEVELOPMENT</h1>
       <Router>
         <Switch>
           <Header />
@@ -24,6 +23,9 @@ function App() {
           </Route>
           <Route path="/project3">
             <h3>Personal Project 3</h3>
+          </Route>
+          <Route path="/blog">
+            <h3>Blog</h3>
           </Route>
           <Route path="/contact">
             <h3>Contact Me</h3>
