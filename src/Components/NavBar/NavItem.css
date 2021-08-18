@@ -9,3 +9,10 @@
   color: #5240fe;
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .navItem {
+    margin: 20px;
+    font-size: 30px;
+  }
+}

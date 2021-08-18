@@ -1,29 +1,19 @@
 import "./Header.css";
-import { Link } from "react-router-dom";
-import NavItem from "./NavItem";
-import { navItems } from "./NavItems";
-import ResumeButton from "./ResumeButton";
-import BlogButton from "./BlogButton";
+import { useState } from "react";
+import Nav from "./Nav";
+import MenuIcon from "./MenuIcon";
+import Logo from "./Logo";
 
 function Header() {
+  const [clicked, setClicked] = useState(false);
+
   return (
     <header className="header">
-      <Link to="/">
-        <img
-          className="header__logo"
-          src="/images/logo.svg"
-          alt="Brand Logo"
-          width="75"
-          height="75"
-        />
-      </Link>
-      <nav className="header__nav">
-        {navItems.map((item) => (
-          <NavItem name={item.name} link={item.link} />
-        ))}
-        <BlogButton />
-        <ResumeButton />
-      </nav>
+      <Logo />
+      <div className="header__menuIcon">
+        <MenuIcon clicked={clicked} setClicked={setClicked} />
+      </div>
+      <Nav clicked={clicked} />
     </header>
   );
 }

@@ -8,3 +8,9 @@
 .resumeButton:hover {
   color: white;
 }
+
+@media (max-width: 768px) {
+  .resumeButton {
+    margin: 20px;
+  }
+}
