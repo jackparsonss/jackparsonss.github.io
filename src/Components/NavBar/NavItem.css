@@ -9,14 +9,3 @@
   color: #5240fe;
   transform: scale(1.1);
 }
-
-.resume {
-  color: #5240fe;
-  border: 2px solid #5240fe;
-  padding: 5px 10px;
-  border-radius: 10px;
-}
-
-.resume:hover {
-  color: white;
-}
