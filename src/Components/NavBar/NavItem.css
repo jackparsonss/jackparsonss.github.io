@@ -10,13 +10,9 @@
   transform: scale(1.1);
 }
 
-.resume {
-  color: #5240fe;
-  border: 2px solid #5240fe;
-  padding: 5px 10px;
-  border-radius: 10px;
-}
-
-.resume:hover {
-  color: white;
+@media (max-width: 768px) {
+  .navItem {
+    margin: 20px;
+    font-size: 30px;
+  }
 }

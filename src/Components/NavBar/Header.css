@@ -1,0 +1,27 @@
+.header {
+  font-family: "Fira Code", monospace;
+  height: 7.5%;
+  background-color: #22262b;
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
+  color: #fff;
+  display: grid;
+  grid-template-areas: "logo nav";
+}
+
+.header__logo {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.header__menuIcon {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+}

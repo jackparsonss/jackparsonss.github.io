@@ -1,0 +1,21 @@
+import "./Header.css";
+import { useState } from "react";
+import Nav from "./Nav";
+import MenuIcon from "./MenuIcon";
+import Logo from "./Logo";
+
+function Header() {
+  const [clicked, setClicked] = useState(false);
+
+  return (
+    <header className="header">
+      <Logo />
+      <div className="header__menuIcon">
+        <MenuIcon clicked={clicked} setClicked={setClicked} />
+      </div>
+      <Nav clicked={clicked} />
+    </header>
+  );
+}
+
+export default Header;

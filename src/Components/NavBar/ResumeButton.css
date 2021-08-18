@@ -1,0 +1,16 @@
+.resumeButton {
+  color: #5240fe;
+  border: 2px solid #5240fe;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.resumeButton:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .resumeButton {
+    margin: 20px;
+  }
+}
