@@ -1,12 +1,26 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 import "./NavItem.css";
 
-function NavItem({ name, link }) {
+function NavItem({ clicked, setClicked, name, link }) {
+  const isContact = name === "Contact";
   return (
-    <Link to={`/${link}`} className="navItem">
+    <NavHashLink
+      scroll={(el) =>
+        el.scrollIntoView({
+          behavior: "smooth",
+          block: `${isContact ? "start" : "end"}`,
+        })
+      }
+      to={`/${link}`}
+      className="navItem"
+      onClick={() => {
+        if (clicked) {
+          setClicked(false);
+        }
+      }}
+    >
       <h3>{name}</h3>
-    </Link>
+    </NavHashLink>
   );
 }
 

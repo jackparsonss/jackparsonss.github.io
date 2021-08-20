@@ -13,7 +13,7 @@ function Header() {
       <div className="header__menuIcon">
         <MenuIcon clicked={clicked} setClicked={setClicked} />
       </div>
-      <Nav clicked={clicked} />
+      <Nav setClicked={setClicked} clicked={clicked} />
     </header>
   );
 }

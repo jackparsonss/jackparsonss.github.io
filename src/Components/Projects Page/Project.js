@@ -1,8 +1,8 @@
 import "./Project.css";
 
-function Project({ name }) {
+function Project({ id, name, dark }) {
   return (
-    <article className="project">
+    <article id={id} className={`project ${dark ? "dark" : ""}`}>
       <h1>This is {name}</h1>
     </article>
   );

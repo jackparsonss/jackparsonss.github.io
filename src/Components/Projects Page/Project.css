@@ -1,3 +1,7 @@
 .project {
-  height: 90vh;
+  height: 89vh;
+}
+
+.dark {
+  background-color: #22262b;
 }

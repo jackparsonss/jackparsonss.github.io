@@ -8,7 +8,6 @@
 @media (max-width: 768px) {
   .Nav {
     transition: all 1s ease-out;
-    /* overflow-x: hidden; */
     clip-path: circle(0px at 90% -10%);
     -webkit-clip-path: circle(0px at 90% -10%);
     position: fixed;
@@ -27,7 +26,6 @@
     );
   }
   .active {
-    /* transition: all 1s ease-out; */
     clip-path: circle(1100px at 90% -10%);
     -webkit-clip-path: circle(1100px at 90% -10%);
   }
