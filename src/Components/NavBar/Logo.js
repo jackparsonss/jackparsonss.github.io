@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function Logo() {
   return (
     <div className="header__logo">
-      <Link to="/">
+      <HashLink smooth to="/#">
         <img src="/images/logo.svg" alt="Brand Logo" width="75" height="75" />
-      </Link>
+      </HashLink>
     </div>
   );
 }

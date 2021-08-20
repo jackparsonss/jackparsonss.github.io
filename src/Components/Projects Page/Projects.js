@@ -4,9 +4,9 @@ import "./Projects.css";
 function Projects() {
   return (
     <section className="Projects">
-      <Project name="Project1" />
-      <Project name="Project2" />
-      <Project name="Project3" />
+      <Project id="project1" name="Project1" />
+      <Project id="project2" name="Project2" dark={true} />
+      <Project id="project3" name="Project3" />
     </section>
   );
 }

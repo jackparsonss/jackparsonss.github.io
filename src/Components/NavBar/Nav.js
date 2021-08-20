@@ -4,11 +4,16 @@ import ResumeButton from "./ResumeButton";
 import BlogButton from "./BlogButton";
 import "./Nav.css";
 
-function Nav({ clicked }) {
+function Nav({ setClicked, clicked }) {
   return (
     <nav className={`Nav ${clicked ? "active" : ""}`}>
       {navItems.map((item) => (
-        <NavItem name={item.name} link={item.link} />
+        <NavItem
+          setClicked={setClicked}
+          clicked={clicked}
+          name={item.name}
+          link={item.link}
+        />
       ))}
       <BlogButton />
       <ResumeButton />
