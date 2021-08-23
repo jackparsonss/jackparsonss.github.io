@@ -1,9 +1,17 @@
 import { HashLink } from "react-router-hash-link";
 
-function Logo() {
+function Logo({ clicked, setClicked }) {
   return (
     <div className="header__logo">
-      <HashLink smooth to="/#">
+      <HashLink
+        smooth
+        to="/#"
+        onClick={() => {
+          if (clicked) {
+            setClicked(false);
+          }
+        }}
+      >
         <img src="/images/logo.svg" alt="Brand Logo" width="75" height="75" />
       </HashLink>
     </div>
