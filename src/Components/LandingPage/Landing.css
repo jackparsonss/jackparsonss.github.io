@@ -1,11 +1,98 @@
 .landing {
+  font-family: "Fira Code", monospace;
   height: 90vh;
   position: relative;
-  /* background: rgb(34, 38, 43);
-  background: linear-gradient(
-    335.5deg,
-    rgba(34, 38, 43, 1) 0%,
-    rgba(34, 38, 43, 1) 50%,
-    rgba(255, 255, 255, 1) 100%
-  ); */
+  background-color: rgb(238, 236, 236);
+  text-align: center;
+  position: relative;
+  justify-items: center;
+  padding-top: 10%;
+}
+
+.landing__purpleText {
+  color: #5240fe;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+hr {
+  width: 35%;
+  height: 2px;
+  background-color: #5240fe;
+  border: none;
+  margin: 20px auto;
+  animation: fadeInAnimation ease 3s;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
+}
+
+.landing__arrows {
+  position: absolute;
+  bottom: 20%;
+  animation: moveDownAnimation ease 3s;
+  right: 49%;
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.landing__arrows:hover {
+  transform: scale(1.1);
+}
+
+@keyframes moveDownAnimation {
+  from {
+    margin-bottom: 50%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landing {
+    padding-top: 13%;
+  }
+
+  .landing__arrows {
+    transition: all 1s ease-out;
+    transform: translate(15px, 55px);
+  }
+
+  .landing__arrows:hover {
+    transform: translate(15px, 55px);
+  }
+
+  hr {
+    transition: all 1s ease-out;
+    width: 80%;
+  }
+
+  @keyframes fadeInAnimation {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+
+  @keyframes moveDownAnimation {
+    from {
+      margin-bottom: 150%;
+    }
+
+    to {
+      margin-bottom: 0%;
+    }
+  }
 }
