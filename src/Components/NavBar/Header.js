@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header className="header">
-      <Logo />
+      <Logo clicked={clicked} setClicked={setClicked} />
       <div className="header__menuIcon">
         <MenuIcon clicked={clicked} setClicked={setClicked} />
       </div>
