@@ -1,6 +1,7 @@
-import PurpleArrows from "../Contact Me Page/PurpleArrows";
+import PurpleArrows from "../LandingPage/PurpleArrows";
 import DarkWave from "../Waves/DarkWave";
 import "./Landing.css";
+import LeftSocialMediaIcons from "./LeftSocialMediaIcons";
 
 function Landing() {
   return (
@@ -19,6 +20,8 @@ function Landing() {
       </div>
 
       <PurpleArrows />
+
+      <LeftSocialMediaIcons />
 
       <DarkWave />
     </section>
