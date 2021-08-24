@@ -1,0 +1,44 @@
+.purpleArrows {
+  position: absolute;
+  bottom: 20%;
+  right: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: moveDownAnimation ease 3s;
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.purpleArrows:hover {
+  transform: scale(1.1);
+}
+
+@keyframes moveDownAnimation {
+  from {
+    margin-bottom: 50%;
+  }
+
+  to {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .purpleArrows {
+    transition: all 1s ease-out;
+    transform: translate(-11px, 30px);
+  }
+
+  .purpleArrows:hover {
+    transform: translate(-11px, 30px);
+  }
+
+  @keyframes moveDownAnimation {
+    from {
+      margin-bottom: 150%;
+    }
+
+    to {
+      margin-bottom: 0%;
+    }
+  }
+}

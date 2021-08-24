@@ -1,6 +1,7 @@
+import PurpleArrows from "../LandingPage/PurpleArrows";
 import DarkWave from "../Waves/DarkWave";
 import "./Landing.css";
-import { NavHashLink } from "react-router-hash-link";
+import LeftSocialMediaIcons from "./LeftSocialMediaIcons";
 
 function Landing() {
   return (
@@ -18,17 +19,10 @@ function Landing() {
         <h1>Backend Developer</h1>
       </div>
 
-      <NavHashLink
-        className="landing_arrowsButton"
-        to="/#about"
-        scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "end" })}
-      >
-        <img
-          className="landing__arrows"
-          src="/images/bottom_purple_arrows.svg"
-          alt="bottom puruple arrows"
-        />
-      </NavHashLink>
+      <PurpleArrows />
+
+      <LeftSocialMediaIcons />
+
       <DarkWave />
     </section>
   );
