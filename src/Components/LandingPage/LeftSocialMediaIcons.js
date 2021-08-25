@@ -9,6 +9,7 @@ function LeftSocialMediaIcons() {
         href="https://github.com/jackparsonss"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="my GitHub"
       >
         <FaGithub className="leftSocialMediaIcons__github icon" size={30} />
       </a>
@@ -16,6 +17,7 @@ function LeftSocialMediaIcons() {
         href="https://www.linkedin.com/in/jack-parsonss/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="my Linkedin"
       >
         <FaLinkedin className="leftSocialMediaIcons__linkedin icon" size={30} />
       </a>
@@ -23,6 +25,7 @@ function LeftSocialMediaIcons() {
         href="https://www.instagram.com/jack.par/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="my Instagram"
       >
         <FaInstagram
           className="leftSocialMediaIcons__instagram icon"
@@ -33,6 +36,7 @@ function LeftSocialMediaIcons() {
         href="https://twitter.com/jackparsonss"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="my Twitter"
       >
         <FaTwitter className="leftSocialMediaIcons__twitter icon" size={30} />
       </a>
