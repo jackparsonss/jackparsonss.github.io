@@ -25,7 +25,7 @@ function Contact() {
             rel="noopener noreferrer"
             aria-label="my Linkedin"
           >
-            <span className="contact__text">jack-parsons</span>
+            <span className="contact__text">jack-parsonss</span>
           </a>
         </div>
       </div>
