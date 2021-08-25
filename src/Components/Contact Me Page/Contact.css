@@ -1,5 +1,43 @@
 .contact {
+  display: flex;
+  flex-direction: column;
   height: 66vh;
   background-color: #22262b;
   position: relative;
+}
+
+.contact__body {
+  max-width: 50vw;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+
+.contact__p {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.contact__option {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.contact__text {
+  color: white;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.contact__logo {
+  color: #5240fe;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__body {
+    max-width: 100vw;
+  }
 }
