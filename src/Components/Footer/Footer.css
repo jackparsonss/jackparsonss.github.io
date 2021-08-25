@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer__copyright {
