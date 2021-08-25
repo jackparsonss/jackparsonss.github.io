@@ -13,7 +13,7 @@
   color: #5240fe;
 }
 
-h1 {
+.landing__mainText {
   font-size: 40px;
   text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   color: #22262b;
