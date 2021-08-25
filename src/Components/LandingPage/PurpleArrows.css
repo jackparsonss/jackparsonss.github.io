@@ -9,12 +9,12 @@
 }
 
 .purpleArrows:hover {
-  transform: scale(1.1);
+  transform: scale(1.1) translateX(-50%);
 }
 
 @keyframes moveDownAnimation {
   from {
-    margin-bottom: 50%;
+    margin-bottom: 100vh;
   }
 
   to {
@@ -25,11 +25,11 @@
 @media only screen and (max-width: 768px) {
   .purpleArrows {
     transition: all 1s ease-out;
-    transform: translate(-11px, 30px);
+    transform: translate(-11px, 15px);
   }
 
   .purpleArrows:hover {
-    transform: translate(-11px, 30px);
+    transform: translate(-11px, 15px);
   }
 
   @keyframes moveDownAnimation {

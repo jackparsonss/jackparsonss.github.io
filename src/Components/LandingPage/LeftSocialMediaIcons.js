@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 function LeftSocialMediaIcons() {
   return (
     <div className="leftSocialMediaIcons">
-      <hr className="leftSocialMediaIcons__mobileLeftBar landing__hr" />
+      <hr className="leftSocialMediaIcons__mobileLeftBar mobile__hr" />
       <a
         href="https://github.com/jackparsonss"
         target="_blank"
@@ -41,7 +41,7 @@ function LeftSocialMediaIcons() {
         <FaTwitter className="leftSocialMediaIcons__twitter icon" size={30} />
       </a>
       <div className="leftSocialMediaIcons__verticalBar" />
-      <hr className="leftSocialMediaIcons__mobileRightBar landing__hr" />
+      <hr className="leftSocialMediaIcons__mobileRightBar mobile__hr" />
     </div>
   );
 }
