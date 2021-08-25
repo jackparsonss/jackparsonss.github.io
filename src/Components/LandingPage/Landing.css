@@ -19,7 +19,7 @@
   color: #22262b;
 }
 
-hr {
+.landing__hr {
   width: 35%;
   height: 2px;
   background-color: #5240fe;
