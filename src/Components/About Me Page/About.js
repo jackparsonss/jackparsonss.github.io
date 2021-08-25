@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <section id="about" className="about">
-      <h1>This is the about me page</h1>
+      <h2>About Me</h2>
       <LightWave />
     </section>
   );
