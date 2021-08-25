@@ -20,7 +20,7 @@
 }
 
 .landing__hr {
-  width: 35%;
+  width: 35vw;
   height: 2px;
   background-color: #5240fe;
   border: none;
@@ -30,10 +30,10 @@
 
 @keyframes fadeInAnimation {
   0% {
-    width: 0%;
+    width: 0vw;
   }
   100% {
-    width: 35%;
+    width: 35vw;
   }
 }
 
@@ -42,17 +42,17 @@
     padding-top: 13%;
   }
 
-  hr {
+  .landing__hr {
     transition: all 1s ease-out;
-    width: 80%;
+    width: 80vw;
   }
 
   @keyframes fadeInAnimation {
     0% {
-      width: 0%;
+      width: 0vw;
     }
     100% {
-      width: 80%;
+      width: 80vw;
     }
   }
 }

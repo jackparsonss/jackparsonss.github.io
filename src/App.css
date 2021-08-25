@@ -5,17 +5,9 @@
   font-family: 'Roboto', sans-serif;
 } */
 
-/* body {
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+h2 {
+  color: #5240fe;
+  font-family: "Fira Code", monospace;
+  text-decoration: underline;
+  font-size: 60px;
 }
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
