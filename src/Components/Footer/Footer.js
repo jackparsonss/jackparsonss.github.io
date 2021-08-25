@@ -1,9 +1,16 @@
+import Logo from "../NavBar/Logo";
 import "./Footer.css";
+import SocialMediaIcons from "./SocialMediaIcons";
+import SourceCodeLink from "./SourceCodeLink";
 
 function Footer() {
   return (
     <footer className="footer">
-      <h1>This is a footer</h1>
+      <SocialMediaIcons />
+      <Logo />
+      {/* <img src="/images/logo.svg" alt="Brand Logo" width="50" height="50" /> */}
+      <p className="footer__copyright">Copyright © 2021 Jack Parsons.</p>
+      <SourceCodeLink />
     </footer>
   );
 }

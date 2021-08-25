@@ -12,7 +12,7 @@ function Landing() {
         <h1 className="landing__mainText">I like to code.</h1>
       </div>
 
-      <hr />
+      <hr className="landing__hr" />
 
       <div className="landing__bottomText">
         <h1 className="landing__mainText">iOS and</h1>

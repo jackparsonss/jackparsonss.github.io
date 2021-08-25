@@ -1,3 +1,11 @@
 .footer {
-  height: 22.5vh;
+  height: 27.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.footer__copyright {
+  font-size: 12px;
 }

@@ -1,17 +1,17 @@
-import "./LeftSocialMediaIcons.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import "./SocialMediaIcons.css";
 
-function LeftSocialMediaIcons() {
+function SocialMediaIcons() {
   return (
-    <div className="leftSocialMediaIcons">
-      <hr className="leftSocialMediaIcons__mobileLeftBar landing__hr" />
+    <div className="socialMediaIcons">
+      <hr className="socialMediaIcons__leftHr hr" />
       <a
         href="https://github.com/jackparsonss"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="my GitHub"
       >
-        <FaGithub className="leftSocialMediaIcons__github icon" size={30} />
+        <FaGithub className="socialMediaIcons__github footer__icon" size={30} />
       </a>
       <a
         href="https://www.linkedin.com/in/jack-parsonss/"
@@ -19,7 +19,10 @@ function LeftSocialMediaIcons() {
         rel="noopener noreferrer"
         aria-label="my Linkedin"
       >
-        <FaLinkedin className="leftSocialMediaIcons__linkedin icon" size={30} />
+        <FaLinkedin
+          className="socialMediaIcons__linkedin footer__icon"
+          size={30}
+        />
       </a>
       <a
         href="https://www.instagram.com/jack.par/"
@@ -28,7 +31,7 @@ function LeftSocialMediaIcons() {
         aria-label="my Instagram"
       >
         <FaInstagram
-          className="leftSocialMediaIcons__instagram icon"
+          className="socialMediaIcons__instagram footer__icon"
           size={30}
         />
       </a>
@@ -38,12 +41,14 @@ function LeftSocialMediaIcons() {
         rel="noopener noreferrer"
         aria-label="my Twitter"
       >
-        <FaTwitter className="leftSocialMediaIcons__twitter icon" size={30} />
+        <FaTwitter
+          className="socialMediaIcons__twitter footer__icon"
+          size={30}
+        />
       </a>
-      <div className="leftSocialMediaIcons__verticalBar" />
-      <hr className="leftSocialMediaIcons__mobileRightBar landing__hr" />
+      <hr className="socialMediaIcons__rightHr hr" />
     </div>
   );
 }
 
-export default LeftSocialMediaIcons;
+export default SocialMediaIcons;
