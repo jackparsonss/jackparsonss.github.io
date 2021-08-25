@@ -8,7 +8,6 @@ function Footer() {
     <footer className="footer">
       <SocialMediaIcons />
       <Logo />
-      {/* <img src="/images/logo.svg" alt="Brand Logo" width="50" height="50" /> */}
       <p className="footer__copyright">Copyright © 2021 Jack Parsons.</p>
       <SourceCodeLink />
     </footer>
