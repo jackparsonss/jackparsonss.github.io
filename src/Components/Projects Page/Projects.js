@@ -1,13 +1,14 @@
-import Project from "./Project";
+import Project1 from "./Project1";
+import Project2 from "./Project2";
+import Project3 from "./Project3";
 import "./Projects.css";
 
 function Projects() {
   return (
     <section className="projects">
-      <h2>Projects</h2>
-      <Project id="project1" name="Project1" />
-      <Project id="project2" name="Project2" dark={true} />
-      <Project id="project3" name="Project3" />
+      <Project1 id="project1" />
+      <Project2 />
+      <Project3 />
     </section>
   );
 }

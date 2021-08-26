@@ -7,6 +7,8 @@
   position: relative;
   justify-items: center;
   padding-top: 10%;
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 .landing__purpleText {
