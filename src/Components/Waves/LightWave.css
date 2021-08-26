@@ -16,5 +16,6 @@
 }
 
 .lightWave .shape-fill {
-  fill: #ffffff;
+  /* fill: #b8c6db; */
+  fill: url("#light");
 }

@@ -5,6 +5,8 @@
   align-items: center;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
+  background-color: #f5f7f9;
+  background-image: linear-gradient(315deg, #dee3ee 0%, #f5f7fa 74%);
 }
 
 .footer__copyright {

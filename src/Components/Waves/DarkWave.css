@@ -17,5 +17,5 @@
 }
 
 .darkWave .shape-fill {
-  fill: #22262b;
+  fill: url("#dark");
 }
