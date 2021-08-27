@@ -27,6 +27,7 @@
 .about__headshot {
   border-radius: 50%;
   border: 5px solid var(--purple);
+  box-shadow: var(--purple) 0px 20px 30px -10px;
 }
 
 .about__specialText {
