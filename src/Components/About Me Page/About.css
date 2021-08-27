@@ -33,3 +33,33 @@
 .about__specialText {
   color: var(--purple);
 }
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding-top: 10vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about__heading {
+    font-size: 50px;
+  }
+
+  .about__text {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .about__body {
+    padding-right: 0;
+    max-width: 60vw;
+    padding-bottom: 15px;
+  }
+
+  .about__headshot {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15vh;
+    margin-top: 15px;
+  }
+}

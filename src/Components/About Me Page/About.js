@@ -6,7 +6,7 @@ function About() {
   return (
     <section id="about" className="about">
       <div className="about__text">
-        <h2>About Me</h2>
+        <h2 className="about__heading">About Me</h2>
         <p className="about__body">
           Hello! My name is Jack Parsons and I am a second-year Computer Science
           Student attending the{" "}
