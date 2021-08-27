@@ -6,7 +6,7 @@
 .hr {
   width: 35vw;
   height: 2px;
-  background-color: #5240fe;
+  background-color: var(--purple);
   border: none;
   margin: 20px auto;
 }
@@ -18,7 +18,7 @@
 }
 
 .footer__icon:hover {
-  color: #5240fe;
+  color: var(--purple);
   transform: scale(1.1);
 }
 

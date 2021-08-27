@@ -16,7 +16,7 @@
 }
 
 .leftSocialMediaIcons__verticalBar {
-  border-left: 3px solid #5240fe;
+  border-left: 3px solid var(--purple);
   height: 30vh;
   position: absolute;
   bottom: -170%;
@@ -29,7 +29,7 @@
 }
 
 .icon:hover {
-  color: #5240fe;
+  color: var(--purple);
   transform: scale(1.1);
 }
 
@@ -38,7 +38,7 @@
   height: 2px;
   border: none;
   margin: 20px auto;
-  background-color: #5240fe;
+  background-color: var(--purple);
   animation: fadeInAnimation ease 3s;
 }
 

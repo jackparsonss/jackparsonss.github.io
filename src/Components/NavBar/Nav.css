@@ -17,7 +17,6 @@
     flex-direction: column;
     justify-content: center;
     z-index: -1;
-    background-color: #22262b;
     background: linear-gradient(
       90deg,
       rgba(18, 19, 20, 1) 0%,

@@ -5,8 +5,14 @@
   font-family: 'Roboto', sans-serif;
 } */
 
+body {
+  --purple: #5240fe;
+  --dark-gray: #22262b;
+  --light-gray: #5b5b5b;
+}
+
 h2 {
-  color: #5240fe;
+  color: var(--purple);
   font-family: "Fira Code", monospace;
   text-decoration: underline;
   font-size: 60px;
