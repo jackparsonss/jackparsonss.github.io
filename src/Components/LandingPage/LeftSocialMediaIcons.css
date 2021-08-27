@@ -12,14 +12,12 @@
   align-items: center;
   position: absolute;
   left: 5%;
-  bottom: 25%;
+  bottom: 0;
 }
 
 .leftSocialMediaIcons__verticalBar {
   border-left: 3px solid var(--purple);
   height: 30vh;
-  position: absolute;
-  bottom: -170%;
 }
 
 .icon {
