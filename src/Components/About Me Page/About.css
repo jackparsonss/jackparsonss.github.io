@@ -1,5 +1,8 @@
 .about {
-  height: 89vh;
+  display: flex;
+  padding-top: 20vh;
+  justify-content: center;
+  height: 80vh;
   background: linear-gradient(
     90deg,
     rgba(18, 19, 20, 1) 0%,
@@ -7,4 +10,25 @@
     rgba(49, 54, 59, 1) 100%
   );
   position: relative;
+  color: white;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__body {
+  font-family: "Fira Code", monospace;
+  max-width: 50vw;
+  padding-right: 50px;
+}
+
+.about__headshot {
+  border-radius: 50%;
+  border: 5px solid var(--purple);
+}
+
+.about__specialText {
+  color: var(--purple);
 }
