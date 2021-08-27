@@ -10,7 +10,7 @@
   }
 
   .menuIcon__icon:hover {
-    color: #5240fe;
+    color: var(--purple);
     transform: scale(1.1);
   }
 }
