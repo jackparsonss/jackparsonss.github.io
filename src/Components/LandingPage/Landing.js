@@ -15,8 +15,8 @@ function Landing() {
       <hr className="landing__hr" />
 
       <div className="landing__bottomText">
-        <h1 className="landing__mainText">iOS and</h1>
-        <h1 className="landing__mainText">Backend Developer</h1>
+        <h1 className="landing__mainText">Computer Science</h1>
+        <h1 className="landing__mainText">Student</h1>
       </div>
 
       <PurpleArrows />
