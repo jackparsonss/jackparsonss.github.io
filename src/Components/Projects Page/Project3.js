@@ -1,10 +1,11 @@
 import DarkWave from "../Waves/DarkWave";
 import "./Project.css";
+import "./Projects.css";
 
 function Project3() {
   return (
     <article className="project light">
-      <h3>This is project 3</h3>
+      <h3 className="project__title">Home Webserver API</h3>
       <DarkWave />
     </article>
   );

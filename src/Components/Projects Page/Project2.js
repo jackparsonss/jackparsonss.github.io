@@ -1,10 +1,11 @@
 import LightWave from "../Waves/LightWave";
 import "./Project.css";
+import "./Projects.css";
 
 function Project2() {
   return (
     <article className="project dark">
-      <h3>This is project 3</h3>
+      <h3 className="project__title">3D Pacman</h3>
       <LightWave />
     </article>
   );
