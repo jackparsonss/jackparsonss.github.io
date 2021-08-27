@@ -27,6 +27,7 @@
 
 .contact__option {
   display: flex;
+  font-family: "Roboto", sans-serif;
   align-items: center;
   padding-bottom: 15px;
 }
