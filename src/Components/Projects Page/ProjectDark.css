@@ -1,0 +1,42 @@
+.project__image {
+  border-radius: 15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.project__left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  padding-bottom: 5vh;
+}
+
+.project__titleDark {
+  color: white;
+}
+
+.project__sourceCodeDark {
+  display: flex;
+  align-items: center;
+  color: var(--purple);
+  transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+
+.project__sourceCodeDark:hover {
+  color: white;
+  transform: scale(1.1);
+  transform-origin: left;
+}
+
+.project__imageDark {
+  box-shadow: rgba(99, 112, 126, 0.742) 0px 20px 30px -10px;
+}
+
+.dark {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 19, 20, 1) 0%,
+    rgba(34, 38, 43, 1) 59%,
+    rgba(49, 54, 59, 1) 100%
+  );
+}

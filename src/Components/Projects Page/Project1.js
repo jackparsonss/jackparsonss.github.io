@@ -1,7 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import DarkWave from "../Waves/DarkWave";
-import "./Project.css";
-import "./Projects.css";
+import "./ProjectLight.css";
 
 function Project1({ id }) {
   return (
@@ -33,8 +32,8 @@ function Project1({ id }) {
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
           >
-            <FaGithub className="" size={25} />
-            <h3 className="">Source Code</h3>
+            <FaGithub className="project__githubLogo" size={25} />
+            <h3>Source Code</h3>
           </a>
         </div>
       </div>
