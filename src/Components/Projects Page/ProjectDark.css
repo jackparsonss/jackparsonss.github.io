@@ -40,3 +40,10 @@
     rgba(49, 54, 59, 1) 100%
   );
 }
+
+@media only screen and (max-width: 768px) {
+  .project__left {
+    align-items: center;
+    /* text-align: center; */
+  }
+}
