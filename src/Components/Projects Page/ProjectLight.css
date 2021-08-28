@@ -1,5 +1,5 @@
 .project {
-  height: 80vh;
+  height: 85vh;
   position: relative;
   padding-left: 11vw;
   padding-top: 10vh;
@@ -77,5 +77,39 @@
 @media only screen and (max-width: 768px) {
   .light {
     background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .project__main {
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .project__right {
+    margin-left: 0;
+  }
+
+  .project__description {
+    max-width: 60vw;
+    text-align: center;
+  }
+
+  .project__sourceCode {
+    justify-content: center;
+  }
+
+  .project__image {
+    margin-bottom: 15px;
+    width: 80%;
+  }
+
+  .project__sourceCode:hover {
+    transform-origin: left;
   }
 }

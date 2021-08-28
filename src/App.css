@@ -9,6 +9,7 @@ body {
   --purple: #5240fe;
   --dark-gray: #22262b;
   --light-gray: #5b5b5b;
+  overflow-x: hidden;
 }
 
 h2 {
