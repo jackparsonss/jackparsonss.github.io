@@ -9,12 +9,15 @@ function Project1({ id }) {
       <div className="project__main">
         <img
           className="project__image"
-          src="/images/covid_bot_project_image.jpg"
+          src="/images/covid_bot_project_image_large.jpg"
+          srcset="/images/covid_bot_project_image_small.jpg 750w, /images/covid_bot_project_image_large.jpg 1468w"
+          sizes="50vw"
           alt="Covid Bot Project Commands"
           width="50%"
           height="auto"
+          loading="lazy"
         />
-        <div className="project__right">
+        <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">Covid-19 Discord Bot</h3>
           <p className="project__description project__body">
             A <span className="project__specialText">hackathon</span> project

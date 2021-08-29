@@ -6,7 +6,7 @@ function Project2() {
   return (
     <article className="project dark">
       <div className="project__main">
-        <div className="project__left">
+        <div data-aos="fade-right" className="project__left">
           <h3 className="project__title project__titleDark">3D Pacman</h3>
           <p className="project__description project__body">
             A <span className="project__specialText">3D video game</span> based
@@ -33,10 +33,13 @@ function Project2() {
         </div>
         <img
           className="project__image project__imageDark"
-          src="/images/pacman_project_image.jpg"
+          src="/images/pacman_project_image_large.jpg"
+          srcset="/images/pacman_project_image_small.jpg 900w, /images/pacman_project_image_large.jpg 1800w"
+          sizes="50vw"
           alt="Covid Bot Project Commands"
           width="50%"
           height="auto"
+          loading="lazy"
         />
       </div>
       <LightWave />

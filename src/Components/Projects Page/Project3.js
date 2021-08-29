@@ -8,12 +8,15 @@ function Project3() {
       <div className="project__main">
         <img
           className="project__image"
-          src="/images/home_api_project_image.jpg"
+          src="/images/home_api_project_image_large.jpg"
+          srcset="/images/home_api_project_image_large.jpg 500w, /images/home_api_project_image_large.jpg 980w"
+          sizes="50vw"
           alt="Covid Bot Project Commands"
           width="40%"
           height="auto"
+          loading="lazy"
         />
-        <div className="project__right">
+        <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">Home Webserver API</h3>
           <p className="project__description project__body">
             An <span className="project__specialText">API</span> created using{" "}
