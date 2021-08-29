@@ -5,7 +5,7 @@ import { FaLinkedin, FaMailBulk } from "react-icons/fa";
 function Contact() {
   return (
     <section id="contact" className="contact">
-      <div className="contact__body">
+      <div data-aos="fade-right" className="contact__body">
         <h2>Contact Me</h2>
         <p className="contact__p">
           Currently I am looking from a summer 2022 Software Development
