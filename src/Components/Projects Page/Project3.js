@@ -16,7 +16,7 @@ function Project3() {
           height="auto"
           loading="lazy"
         />
-        <div className="project__right">
+        <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">Home Webserver API</h3>
           <p className="project__description project__body">
             An <span className="project__specialText">API</span> created using{" "}

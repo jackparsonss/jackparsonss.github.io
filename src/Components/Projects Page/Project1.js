@@ -17,7 +17,7 @@ function Project1({ id }) {
           height="auto"
           loading="lazy"
         />
-        <div className="project__right">
+        <div data-aos="fade-left" className="project__right">
           <h3 className="project__title">Covid-19 Discord Bot</h3>
           <p className="project__description project__body">
             A <span className="project__specialText">hackathon</span> project

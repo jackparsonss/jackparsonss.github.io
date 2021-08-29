@@ -6,7 +6,7 @@ function Project2() {
   return (
     <article className="project dark">
       <div className="project__main">
-        <div className="project__left">
+        <div data-aos="fade-right" className="project__left">
           <h3 className="project__title project__titleDark">3D Pacman</h3>
           <p className="project__description project__body">
             A <span className="project__specialText">3D video game</span> based

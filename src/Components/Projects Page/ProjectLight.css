@@ -86,6 +86,10 @@
     padding-left: 0;
   }
 
+  .project__title {
+    text-align: center;
+  }
+
   .project__main {
     flex-direction: column;
     padding-top: 0;
@@ -97,6 +101,10 @@
 
   .project__description {
     max-width: 60vw;
+    text-align: center;
+  }
+
+  .project__tech {
     text-align: center;
   }
 
