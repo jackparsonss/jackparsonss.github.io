@@ -8,7 +8,9 @@ function Project3() {
       <div className="project__main">
         <img
           className="project__image"
-          src="/images/home_api_project_image.jpg"
+          src="/images/home_api_project_image_large.jpg"
+          srcset="/images/home_api_project_image_large.jpg 500w, /images/home_api_project_image_large.jpg 980w"
+          sizes="50vw"
           alt="Covid Bot Project Commands"
           width="40%"
           height="auto"
