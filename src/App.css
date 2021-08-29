@@ -9,6 +9,10 @@ body {
   --purple: #5240fe;
   --dark-gray: #22262b;
   --light-gray: #5b5b5b;
+}
+
+html,
+body {
   overflow-x: hidden;
 }
 
