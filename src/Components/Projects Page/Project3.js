@@ -14,6 +14,7 @@ function Project3() {
           alt="Covid Bot Project Commands"
           width="40%"
           height="auto"
+          loading="lazy"
         />
         <div className="project__right">
           <h3 className="project__title">Home Webserver API</h3>

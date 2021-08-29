@@ -39,6 +39,7 @@ function Project2() {
           alt="Covid Bot Project Commands"
           width="50%"
           height="auto"
+          loading="lazy"
         />
       </div>
       <LightWave />
