@@ -23,7 +23,7 @@
   margin-left: 50px;
   text-align: right;
   padding-bottom: 5vh;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .project__title {
@@ -98,6 +98,7 @@
 
   .project__right {
     margin-left: 0;
+    align-items: center;
   }
 
   .project__description {
