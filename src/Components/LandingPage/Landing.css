@@ -1,18 +1,24 @@
 .landing {
   font-family: "Fira Code", monospace;
-  height: 90vh;
+  height: 105vh;
   position: relative;
   background-color: rgb(238, 236, 236);
   text-align: center;
-  position: relative;
-  justify-items: center;
-  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
 }
 
 .landing__purpleText {
   color: var(--purple);
+}
+
+.landing__topText {
+  margin-bottom: 15px;
 }
 
 .landing__mainText {
@@ -40,10 +46,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .landing {
-    padding-top: 13%;
-  }
-
   .landing__hr {
     transition: all 1s ease-out;
     width: 80vw;
