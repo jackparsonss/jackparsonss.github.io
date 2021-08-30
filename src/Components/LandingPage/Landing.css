@@ -46,6 +46,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .landing {
+    padding-top: 0;
+    height: 95vh;
+  }
+
   .landing__hr {
     transition: all 1s ease-out;
     width: 80vw;
