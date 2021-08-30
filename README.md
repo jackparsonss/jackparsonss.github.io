@@ -23,7 +23,7 @@
 This is a static website, displaying information about myself, my projects, and ways to contact me.
 This website was built with react and plain CSS
 
-### Dependencies I used were:
+### Dependencies Used:
 
 - react
 - react-router-hash-link
