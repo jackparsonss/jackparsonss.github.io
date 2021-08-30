@@ -1,6 +1,6 @@
 .purpleArrows {
   position: absolute;
-  bottom: 20%;
+  bottom: 15%;
   right: 50%;
   left: 50%;
   transform: translateX(-50%);
@@ -26,6 +26,7 @@
   .purpleArrows {
     transition: all 1s ease-out;
     transform: translate(-11px, 15px);
+    bottom: 8.5%;
   }
 
   .purpleArrows:hover {

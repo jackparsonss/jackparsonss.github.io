@@ -1,7 +1,6 @@
 .header {
   font-family: "Fira Code", monospace;
-  height: 7.5%;
-  position: relative;
+  height: 12.5%;
   background: linear-gradient(
     90deg,
     rgba(18, 19, 20, 1) 0%,
@@ -11,8 +10,9 @@
   color: #fff;
   display: grid;
   grid-template-areas: "logo nav";
-  position: sticky;
+  position: fixed;
   top: 0;
+  width: 100vw;
   z-index: 10;
   border-bottom: 1px solid #b8c6db;
 }
