@@ -15,6 +15,7 @@
   width: 100vw;
   z-index: 10;
   border-bottom: 1px solid #b8c6db;
+  align-content: center;
 }
 
 .header__logo {
