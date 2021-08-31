@@ -12,7 +12,7 @@ function Logo({ clicked, setClicked }) {
           }
         }}
       >
-        <img src="/images/logo.svg" alt="Brand Logo" width="75" height="75" />
+        <img src="/images/logo.png" alt="Brand Logo" width="75" height="75" />
       </HashLink>
     </div>
   );
