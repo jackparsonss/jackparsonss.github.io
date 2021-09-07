@@ -1,7 +1,6 @@
 import NavItem from "./NavItem";
 import { navItems } from "./NavItems";
 import ResumeButton from "./ResumeButton";
-import BlogButton from "./BlogButton";
 import "./Nav.css";
 
 function Nav({ setClicked, clicked }) {
@@ -15,7 +14,7 @@ function Nav({ setClicked, clicked }) {
           link={item.link}
         />
       ))}
-      <BlogButton />
+      {/* <BlogButton /> */}
       <ResumeButton />
     </nav>
   );
