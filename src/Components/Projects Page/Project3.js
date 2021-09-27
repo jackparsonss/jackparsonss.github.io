@@ -8,37 +8,37 @@ function Project3() {
       <div className="project__main">
         <img
           className="project__image"
-          src="/images/home_api_project_image_large.jpg"
-          srcset="/images/home_api_project_image_large.jpg 500w, /images/home_api_project_image_large.jpg 980w"
+          src="/images/pacman_project_image_large.jpg"
+          srcset="/images/pacman_project_image_small.jpg 900w, /images/pacman_project_image_large.jpg 1800w"
           sizes="50vw"
           alt="Covid Bot Project Commands"
-          width="40%"
+          width="50%"
           height="auto"
           loading="lazy"
         />
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">Home Webserver API</h3>
+          <h3 className="project__title">3D Pacman</h3>
           <p className="project__description project__body">
-            An <span className="project__specialText">API</span> created using{" "}
-            <span className="project__specialText">flask</span>, hosted on a{" "}
-            <span className="project__specialText">rasberry pi 4</span>. Taking
-            data from an{" "}
-            <span className="project__specialText">Arduino Uno R3</span> using
-            GPIO pins connected to a temperature sensor which is feeding data
-            into the raspberry pi to be fetched from the frontend.
+            A <span className="project__specialText">3D video game</span> based
+            on the classic retro game Pacman. However, there are twists, such as
+            a <span className="project__specialText">physics</span> based
+            movement system. All ghosts are using a{" "}
+            <span className="project__specialText">finite state machine</span>{" "}
+            and the <span className="project__specialText">A* algorithm</span>{" "}
+            to hunt.
           </p>
           <p className="project__tech project__body">
-            &gt; Python · Flask · Rasberry Pi · Arduino · API
+            &gt; C# · Unity Game Engine
           </p>
           <a
             className="project__sourceCode"
-            href="https://github.com/jackparsonss/Home-Webserer-API"
+            href="https://github.com/jackparsonss/3D-Pacman"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
           >
             <FaGithub className="project__githubLogo" size={25} />
-            <h3>Source Code</h3>
+            <h3 className="project__sourceCodeText">Source Code</h3>
           </a>
         </div>
       </div>
