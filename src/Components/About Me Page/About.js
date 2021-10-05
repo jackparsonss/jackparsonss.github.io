@@ -19,11 +19,10 @@ function About() {
           Student attending the{" "}
           <span className="about__specialText">University of Alberta.</span>{" "}
           Currently, I am very interested in{" "}
-          <span className="about__specialText">iOS development</span>, trying to
-          bridge the gap between providing value and creating clean and
-          intuitive apps. I am also extremely interested in{" "}
           <span className="about__specialText">backend development</span>,
-          creating APIs, and working with databases.
+          creating APIs, and working with databases. As well, I am extremely
+          interested in Data Science, more specifically <span className="about__specialText">Artificial
+          Intelligence</span> and <span className="about__specialText">Machine Learning.</span>
         </p>
         <br />
         <p className="about__body">
