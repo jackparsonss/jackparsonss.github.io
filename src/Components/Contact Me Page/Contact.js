@@ -8,7 +8,7 @@ function Contact() {
       <div data-aos="fade-right" className="contact__body">
         <h2 className="contact__heading">Contact Me</h2>
         <p className="contact__p">
-          Currently I am looking from a summer 2022 Software Development
+          Currently I am looking for a summer 2022 Software Development
           Internship
         </p>
         <div className="contact__option">
