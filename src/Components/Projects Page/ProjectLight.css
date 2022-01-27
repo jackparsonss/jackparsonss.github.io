@@ -123,6 +123,10 @@
     width: 80%;
   }
 
+  .project__specialMobileImage {
+    width: 20%;
+  }
+
   .project__sourceCode:hover {
     transform-origin: left;
   }
