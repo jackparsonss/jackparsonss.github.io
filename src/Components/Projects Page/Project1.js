@@ -1,7 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import DarkWave from "../Waves/DarkWave";
 import "./ProjectLight.css";
-import MediaQuery from "react-responsive";
 import { useMediaQuery } from "react-responsive";
 
 function Project1({ id }) {
