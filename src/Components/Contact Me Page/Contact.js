@@ -7,10 +7,10 @@ function Contact() {
     <section id="contact" className="contact">
       <div data-aos="fade-right" className="contact__body">
         <h2 className="contact__heading">Contact Me</h2>
-        <p className="contact__p">
+        {/* <p className="contact__p">
           Currently I am looking for a summer 2022 Software Development
           Internship
-        </p>
+        </p> */}
         <div className="contact__option">
           <FaMailBulk className="contact__logo" size={45} />
           <a href="mailto: jparsons@ualberta.ca">
