@@ -5,7 +5,6 @@ import "./ProjectLight.css";
 function Project3() {
   return (
     <article className="project light">
-      <h2 className="project__header">Projects</h2>
       <div className="project__main">
         <img
           className="project__image"

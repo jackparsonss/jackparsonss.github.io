@@ -10,6 +10,7 @@ function Project1({ id }) {
 
   return (
     <article id={id} className="project light">
+      <h2 className="project__header">Projects</h2>
       <div className="project__main">
         <img
           className="project__image project__specialMobileImage"
@@ -19,7 +20,7 @@ function Project1({ id }) {
           height="auto"
           loading="lazy"
         />
-        {isDesktopOrLaptop ? (
+        {isDesktopOrLaptop && (
           <>
             <img
               className="project__image"
@@ -38,8 +39,6 @@ function Project1({ id }) {
               loading="lazy"
             />
           </>
-        ) : (
-          <> </>
         )}
 
         <div data-aos="fade-left" className="project__right">
@@ -50,8 +49,7 @@ function Project1({ id }) {
             <span className="project__specialText">
               manage all of their medications
             </span>
-            , with an intuitive add button combined with a simple home screen to
-            checkoff all medications. An enjoyable{" "}
+            , with an enjoyable{" "}
             <span className="project__specialText">calendar view</span> is
             available for all users so they can view their{" "}
             <span className="project__specialText">medication history</span>
