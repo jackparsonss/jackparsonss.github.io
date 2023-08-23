@@ -16,23 +16,26 @@ function About() {
       <div data-aos="fade-right" className="about__text">
         <h2 className="about__heading">About Me</h2>
         <p className="about__body">
-          Hello! My name is Jack Parsons and I am a third-year Computer Science
-          Student attending the{" "}
-          <span className="about__specialText">University of Alberta.</span>{" "}
-          This summer I am working as a web and platform developer at{" "}
-          <Link
-            to={{ pathname: "https://www.psystem.ca/" }}
-            className="about__externLink"
-            target="_blank"
-          >
-            <span className="about__specialText">Psystem</span>
-          </Link>
-          . I am very interested in{" "}
-          <span className="about__specialText">backend development</span>,
-          creating APIs, and working with databases. As well, I am extremely
-          interested in Data Science, more specifically{" "}
-          <span className="about__specialText">Artificial Intelligence</span>{" "}
-          and <span className="about__specialText">Machine Learning.</span>
+          👋 Hello My name is Jack Parsons and I am a fourth-year Computer
+          Science Student attending the{" "}
+          <span className="about__specialText">University of Alberta</span>.
+          <br />
+          <br />
+          🏢 I have previously interned at{" "}
+          <span className="about__specialText">Okta</span> this past summer, and
+          at <span className="about__specialText">Psystem</span> the previous
+          summer. With roles as a Software Engineer and a Fullstack Developer
+          respectively. <br /> <br />
+          🏎️ This year I am co-leading the University of Alberta Formula Racing
+          club's new{" "}
+          <span className="about__specialText">
+            Autonomous Driving Subsystem
+          </span>{" "}
+          from the ground up.
+          <br /> <br /> 💥Currently, I am very interested in, and learning about{" "}
+          <span className="about__specialText">compilers</span>,{" "}
+          <span className="about__specialText">autonomous driving</span>, and{" "}
+          <span className="about__specialText">deep learning</span>.
         </p>
         <br />
         <p className="about__body">
